@@ -6,8 +6,10 @@
 //   Pads 1-8  -> deck N hotcues 1-8
 //   Pads 9-16 -> deck N+1 hotcues 1-8
 //   Browse    -> toggle deck pairs (1&2 <-> 3&4)
-//   Shift+pad -> delete hotcue
+//   Tap empty pad -> set hotcue
 //   Hold set pad -> play from cue, stop and return on release
+//   Shift while holding a playing pad -> capture: keeps playing on release
+//   Shift+pad (shift first) -> delete hotcue
 //
 // Preserves the built-in HIDController constructor pattern so Mixxx binds
 // the JS instance to the actual USB device and LED output works.

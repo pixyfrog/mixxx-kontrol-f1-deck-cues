@@ -19,8 +19,12 @@ Mixxx actually runs).
 - Pads 1–8 → deck N hotcues 1–8
 - Pads 9–16 → deck N+1 hotcues 1–8
 - **Browse** → toggle deck pairs (1&2 ↔ 3&4)
-- **Shift + pad** → delete hotcue
-- Hold pad → play from cue; release → stop and return to cue
+- Tap an empty pad → **set** hotcue
+- Hold a set pad → play from that cue; release → **stop and return** to cue
+  (cue-preview style)
+- **While holding a playing pad, press Shift** → "capture": on release the
+  track **keeps playing** instead of stopping/returning
+- **Shift + pad** (Shift held before the pad) → **delete** hotcue
 
 ## Install / reinstall
 
