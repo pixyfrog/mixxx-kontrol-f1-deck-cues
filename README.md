@@ -39,6 +39,17 @@ Copy the three Deck Cues files + `common-hid-packet-parser.js` there
 Preferences → Controllers → Traktor Kontrol F1 → select the
 "Deck Cues" preset. Only one F1 preset should be enabled at a time.
 
+## Roadmap / ideas for the next session
+
+- The F1's **4 knobs + 4 faders** are currently unmapped — candidates:
+  filter/FX per deck, gain, or library browse/zoom.
+- Rethink the 16-pad grid: **8 hotcues + 8 sampler slots for one deck**
+  (instead of 16 cues across two decks). Open questions when resuming:
+  how Browse/deck-toggle interacts with a single-deck layout, and whether
+  sample pads should mirror Mixxx's sampler banks.
+- Other unmapped buttons (Sync, Quant, Capture, Reverse, Type, Size) are
+  available for modifier or direct duties.
+
 ## Notes
 
 - F1 USB IDs: vendor `0x17cc`, product `0x1120` (HID protocol).
