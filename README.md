@@ -10,9 +10,12 @@ Mixxx actually runs).
 | File | Role |
 |---|---|
 | `Traktor Kontrol F1 - Deck Cues.hid.xml` + `Traktor-Kontrol-F1-DeckCues-scripts.js` | **Custom "Deck Cues" mapping** (the one in use) |
-| `Traktor Kontrol F1.hid.xml` + `Traktor-Kontrol-F1-scripts.js` | Stock Mixxx mapping (Ilkka Tuohela, 2012) — reference/fallback |
-| `common-hid-packet-parser.js` | Mixxx HID library, required by both mappings |
-| `session-archive/` | Saved chat dump of the original mapping session (history only) |
+| `common-hid-packet-parser.js` | Mixxx HID library, required by the mapping (upstream Mixxx file, GPL-2.0) |
+| `session-archive/` | Saved chat dump of the original mapping session (history only, not in the repo) |
+
+The stock F1 mapping this was based on (by Ilkka Tuohela) ships with Mixxx
+itself — see `res/controllers/Traktor Kontrol F1*` in
+[github.com/mixxxdj/mixxx](https://github.com/mixxxdj/mixxx).
 
 ## Deck Cues layout
 
