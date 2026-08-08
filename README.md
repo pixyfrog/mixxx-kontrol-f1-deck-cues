@@ -11,7 +11,6 @@ Mixxx actually runs).
 |---|---|
 | `Traktor Kontrol F1 - Deck Cues.hid.xml` + `Traktor-Kontrol-F1-DeckCues-scripts.js` | **Custom "Deck Cues" mapping** (the one in use) |
 | `common-hid-packet-parser.js` | Mixxx HID library, required by the mapping (upstream Mixxx file, GPL-2.0) |
-| `session-archive/` | Saved chat dump of the original mapping session (history only, not in the repo) |
 
 The stock F1 mapping this was based on (by Ilkka Tuohela) ships with Mixxx
 itself — see `res/controllers/Traktor Kontrol F1*` in
@@ -56,6 +55,3 @@ Preferences → Controllers → Traktor Kontrol F1 → select the
 ## Notes
 
 - F1 USB IDs: vendor `0x17cc`, product `0x1120` (HID protocol).
-- The `F1-Context-Handoff.pdf` from the K2.7 session was lost in the
-  2026-08 archive cleanup; the session HTML in `session-archive/` is the
-  surviving record.
